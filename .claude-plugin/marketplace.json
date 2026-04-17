@@ -13,6 +13,16 @@
       "name": "quality-review-plugin",
       "source": "./plugins/quality-review-plugin",
       "description": "빠른 코드 리뷰를 위한 /quality-review skill 추가"
+    },
+    {
+      "name": "quality-commit-plugin",
+      "source": "./plugins/timothy/quality-commit-plugin",
+      "description": "빠른 커밋 메시지 작성을 위한 /quality-commit skill 추가"
+    },
+    {
+      "name": "quality-pr-plugin",
+      "source": "./plugins/timothy/quality-pr-plugin",
+      "description": "빠른 PR을 위한 /quality-pr skill 추가"
     }
   ]
 }

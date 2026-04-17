@@ -1,0 +1,5 @@
+{
+  "name": "quality-commit-plugin",
+  "description": "빠른 커밋 메시지 작성을 위한 /quality-commit skill 추가",
+  "version": "1.0.0"
+}
