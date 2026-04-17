@@ -1,0 +1,5 @@
+{
+  "name": "quality-review-plugin",
+  "description": "빠른 코드 리뷰를 위한 /quality-review skill 추가",
+  "version": "1.0.0"
+}

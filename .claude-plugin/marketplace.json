@@ -1,0 +1,18 @@
+{
+  "name": "timothy-market",
+  "owner": {
+    "name": "timothy"
+  },
+  "plugins": [
+    {
+      "name": "quality-code-plugin",
+      "source": "./plugins/quality-code-plugin",
+      "description": "빠른 코드 작성을 위한 /quality-code skill 추가"
+    },
+    {
+      "name": "quality-review-plugin",
+      "source": "./plugins/quality-review-plugin",
+      "description": "빠른 코드 리뷰를 위한 /quality-review skill 추가"
+    }
+  ]
+}

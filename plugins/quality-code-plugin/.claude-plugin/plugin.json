@@ -1,0 +1,5 @@
+{
+  "name": "quality-code-plugin",
+  "description": "빠른 코드 작성을 위한 /quality-code skill 추가",
+  "version": "1.0.0"
+}
