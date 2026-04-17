@@ -23,6 +23,11 @@
       "name": "quality-pr-plugin",
       "source": "./plugins/timothy/quality-pr-plugin",
       "description": "빠른 PR을 위한 /quality-pr skill 추가"
+    },
+    {
+      "name": "remember-rule",
+      "source": "./plugins/remember-rule",
+      "description": "사용자가 규칙·선호·지침을 기억하라고 요청할 때 적절한 저장소를 판단해서 추가하는 skill 추가"
     }
   ]
 }
