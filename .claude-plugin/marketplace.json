@@ -1,7 +1,7 @@
 {
-  "name": "timothy-market",
+  "name": "rulewrite-claude-market",
   "owner": {
-    "name": "timothy"
+    "name": "rulewrite"
   },
   "plugins": [
     {
