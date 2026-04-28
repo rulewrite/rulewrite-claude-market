@@ -23,6 +23,11 @@
       "name": "weekly-worklog",
       "source": "./plugins/weekly-worklog",
       "description": "작업 하나가 끝날 때마다 PR·지라 정보를 노션 업무 로그에 기존 포맷 그대로 기록"
+    },
+    {
+      "name": "idle-notify",
+      "source": "./plugins/idle-notify",
+      "description": "Claude가 사용자 응답을 기다리거나 작업을 끝낸 idle 상태가 되면 macOS 알림으로 환기"
     }
   ]
 }
