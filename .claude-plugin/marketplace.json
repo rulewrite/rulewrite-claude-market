@@ -10,6 +10,16 @@
       "description": "사용자가 규칙·선호·지침을 기억해달라고 요청하면 적절한 저장소를 판단해 추가"
     },
     {
+      "name": "gift-workflow",
+      "source": "./plugins/gift-workflow",
+      "description": "카카오 선물하기 서비스 작업 워크플로우 (지라 조회 → 브랜치 → 구현 → 커밋 분할 → PR → 보고)"
+    },
+    {
+      "name": "gift-planning",
+      "source": "./plugins/gift-planning",
+      "description": "카카오 선물하기 FE 프로젝트 킥오프 (기획서 → 코드 탐색 → 지라 서브태스크 → 버퍼 → 일정 산출)"
+    },
+    {
       "name": "weekly-worklog",
       "source": "./plugins/weekly-worklog",
       "description": "작업 하나가 끝날 때마다 PR·지라 정보를 노션 업무 로그에 기존 포맷 그대로 기록"
