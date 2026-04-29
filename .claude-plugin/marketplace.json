@@ -5,11 +5,6 @@
   },
   "plugins": [
     {
-      "name": "remember-rule",
-      "source": "./plugins/remember-rule",
-      "description": "사용자가 규칙·선호·지침을 기억해달라고 요청하면 적절한 저장소를 판단해 추가"
-    },
-    {
       "name": "gift-workflow",
       "source": "./plugins/gift-workflow",
       "description": "카카오 선물하기 서비스 작업 워크플로우 (지라 조회 → 브랜치 → 구현 → 커밋 분할 → PR → 보고)"
