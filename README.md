@@ -4,11 +4,21 @@
 
 ## 마켓플레이스 추가
 
-[공식문서](https://code.claude.com/docs/en/plugin-marketplaces#host-on-github-recommended)
+- [CLI](https://code.claude.com/docs/en/plugin-marketplaces#plugin-marketplace-add)
+  ```shell
+  claude plugin marketplace add rulewrite/rulewrite-claude-market
+  ```
+- [claude 세션](https://code.claude.com/docs/en/plugin-marketplaces#host-on-github-recommended)
+  ```
+  /plugin marketplace add rulewrite/rulewrite-claude-market
+  ```
 
-```
-/plugin marketplace add rulewrite/rulewrite-claude-market
-```
+### 호환되는 에이전트
+
+- [codex](https://developers.openai.com/codex/plugins/build#add-a-marketplace-from-the-cli)
+  ```shell
+  codex plugin marketplace add rulewrite/rulewrite-claude-market
+  ```
 
 ## 구조 및 스키마
 
