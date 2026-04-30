@@ -1,0 +1,16 @@
+{
+  "description": "/init 시 AGENTS.md SOT 표준 방식 가이드 주입",
+  "hooks": {
+    "UserPromptExpansion": [
+      {
+        "matcher": "^init$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/init-guide.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
