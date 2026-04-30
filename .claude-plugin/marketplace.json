@@ -5,11 +5,6 @@
   },
   "plugins": [
     {
-      "name": "remember-rule",
-      "source": "./plugins/remember-rule",
-      "description": "사용자가 규칙·선호·지침을 기억해달라고 요청하면 적절한 저장소를 판단해 추가"
-    },
-    {
       "name": "gift-workflow",
       "source": "./plugins/gift-workflow",
       "description": "카카오 선물하기 서비스 작업 워크플로우 (지라 조회 → 브랜치 → 구현 → 커밋 분할 → PR → 보고)"
@@ -28,6 +23,11 @@
       "name": "idle-notify",
       "source": "./plugins/idle-notify",
       "description": "Claude가 사용자 응답을 기다리거나 작업을 끝낸 idle 상태가 되면 macOS 알림으로 환기"
+    },
+    {
+      "name": "standardize-rules",
+      "source": "./plugins/standardize-rules",
+      "description": "자연어로 남긴 새 룰·지침을 표준 SOT(AGENTS.md)에 쌓고, 현재 에이전트의 표준 연결(예: Claude Code의 CLAUDE.md @import)까지 챙겨 표준 방식으로 생성·업데이트"
     }
   ]
 }
