@@ -62,4 +62,4 @@ description: 카카오 선물하기 서비스 작업 워크플로우. 지라 URL
 
 ## 용어
 
-선물하기 내부 축약어·고유명사가 나오면 추측 금지. `references/glossary.md` 조회 → 없으면 사용자에게 확인 → 확정 의미는 glossary에 추가 제안.
+선물하기 내부 축약어·고유명사가 나오면 추측 금지. 플러그인 루트의 `references/glossary.md` 조회 → 없으면 사용자에게 확인 → 확정 의미는 glossary에 추가 제안.
