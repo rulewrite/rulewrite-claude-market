@@ -1,9 +1,9 @@
 ---
-name: gift-workflow
+name: workflow
 description: 카카오 선물하기 서비스 작업 워크플로우. 지라 URL/키(GIFTPM-*, QAGIFT-*) 제공, "선물하기" 키워드 언급, 또는 현재 브랜치가 선물하기 규칙(`(feat|hotfix|release)/<지라키>-...`)인 상태에서 연속 작업 요청이 올 때 반드시 트리거. 지라 조회 → 브랜치 전략 수립 → 구현 → PR → 대화창 보고까지 한 흐름으로 처리.
 ---
 
-# gift-workflow
+# workflow
 
 ## 트리거
 
