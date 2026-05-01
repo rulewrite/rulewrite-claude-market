@@ -1,10 +1,10 @@
 ---
-name: gift-planning
+name: planning
 description: 카카오 선물하기 FE 프로젝트 킥오프 워크플로우. 기획서(Google Slides/Docs) URL과 상위 지라(에픽 또는 Task) 링크를 받아 (1) 기획서 읽기 (2) 관련 코드 탐색으로 구현 범위 매핑 (3) 태스크 분해 + 지라 서브 이슈 생성 (4) FE팀 위키 규칙으로 버퍼 이슈 산정 (5) 한국 공휴일 반영 워킹데이 일정 산출까지 한 흐름으로 처리.
 argument-hint: <기획서 URL> <상위 지라 링크>
 ---
 
-# gift-planning
+# planning
 
 구현이 아닌 **계획 단계**에서 사용.
 
@@ -157,7 +157,6 @@ p17 [선물함] 잠재 VIP 문구 변경
 - 지라 프로젝트 키: `GIFTPM` (개발), `QAGIFT` (QA)
 - 위키 도메인: `wiki.daumkakao.com`
 - 1d = 8h, 공수는 0.5d 단위
-- 용어 불명 시 사용자 확인
 
 ## 금지 사항
 

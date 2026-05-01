@@ -5,14 +5,9 @@
   },
   "plugins": [
     {
-      "name": "gift-workflow",
-      "source": "./plugins/gift-workflow",
-      "description": "카카오 선물하기 서비스 작업 워크플로우 (지라 조회 → 브랜치 → 구현 → 커밋 분할 → PR → 보고)"
-    },
-    {
-      "name": "gift-planning",
-      "source": "./plugins/gift-planning",
-      "description": "카카오 선물하기 FE 프로젝트 킥오프 (기획서 → 코드 탐색 → 지라 서브태스크 → 버퍼 → 일정 산출)"
+      "name": "kakao-gift-services",
+      "source": "./plugins/kakao-gift-services",
+      "description": "카카오 선물하기 FE 도구 — 프로젝트 킥오프 플래닝과 일상 작업 워크플로우"
     },
     {
       "name": "weekly-worklog",

@@ -1,5 +1,0 @@
-{
-  "name": "gift-workflow",
-  "description": "카카오 선물하기 서비스 작업 워크플로우 (지라 조회 → 브랜치 → 구현 → 커밋 분할 → PR → 보고)",
-  "version": "1.0.0"
-}
