@@ -20,8 +20,11 @@
   codex plugin marketplace add rulewrite/rulewrite-claude-market
   ```
 
-## 구조 및 스키마
+## 참고 자료
 
-- 디렉토리 구조 레퍼런스: [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
-- 플러그인 스키마: [Plugin manifest schema](https://code.claude.com/docs/en/plugins-reference#plugin-manifest-schema)
-- 마켓 스키마: [Marketplace schema](https://code.claude.com/docs/en/plugin-marketplaces#marketplace-schema)
+- 디렉토리 구조 예시: [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+
+### 스키마
+
+- 플러그인: [Plugin manifest schema](https://code.claude.com/docs/en/plugins-reference#plugin-manifest-schema)
+- 마켓플레이스: [Marketplace schema](https://code.claude.com/docs/en/plugin-marketplaces#marketplace-schema)
