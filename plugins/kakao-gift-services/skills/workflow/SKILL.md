@@ -27,11 +27,11 @@ description: 카카오 선물하기 서비스 작업 워크플로우. 지라 URL
 
 ## 브랜치 흐름
 
-깃플로우 변형. 머지 경로: `feat → dev → beta → master`. 단, `feat`는 `dev`가 아닌 `master`에서 분기한다.
+깃플로우 변형. 머지 경로: `feat → develop → beta → master`. 단, `feat`는 `develop`이 아닌 `master`에서 분기한다.
 
 - `release/*`, `hotfix/*`는 `master`로 직접 PR.
 - 리뷰를 받는 구간(같은 변경이 공용 브랜치에 처음 들어가는 지점):
-  - `feat → dev`
+  - `feat → develop`
   - `main-lock 하위 → main-lock`
 - 이후 승격 PR(`feat → beta`, `feat → master` 등)은 동일 변경이 이미 리뷰를 통과했으므로 추가 리뷰 없이 진행.
 
@@ -59,4 +59,3 @@ description: 카카오 선물하기 서비스 작업 워크플로우. 지라 URL
 - 변경 요약: <한두 줄>
 - 검증: <결과 또는 미수행 사유>
 ```
-
