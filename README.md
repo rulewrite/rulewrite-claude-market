@@ -15,7 +15,7 @@
 
 ### 호환되는 에이전트
 
-- [codex](https://developers.openai.com/codex/plugins/build#add-a-marketplace-from-the-cli)
+- [codex](https://developers.openai.com/codex/plugins/build#add-a-marketplace-from-the-cli) ([호환](https://developers.openai.com/codex/plugins/build#how-codex-uses-marketplaces))
   ```shell
   codex plugin marketplace add rulewrite/rulewrite-claude-market
   ```
