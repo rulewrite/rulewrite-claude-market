@@ -20,6 +20,11 @@
   codex plugin marketplace add rulewrite/rulewrite-claude-market
   ```
 
+### 미지원 에이전트
+
+- [antigravity](https://antigravity.google/docs/plugins) (`agy`) — 마켓플레이스 미지원. 개별 플러그인 설치(`agy plugin install <repo>`)만 가능하며, 여러 플러그인을 묶은 마켓플레이스 등록 명령이 없다.
+  - 기능 요청 추적: [antigravity-cli#300](https://github.com/google-antigravity/antigravity-cli/issues/300), [antigravity-cli#123](https://github.com/google-antigravity/antigravity-cli/issues/123)
+
 ## 참고 자료
 
 - 디렉토리 구조 예시: [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
